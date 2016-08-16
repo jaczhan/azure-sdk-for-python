@@ -25,7 +25,7 @@ except ImportError:
 
 setup(
     name='azure-common',
-    version='1.1.4',
+    version='1.1.5',
     description='Microsoft Azure Client Library for Python (Common)',
     long_description=open('README.rst', 'r').read(),
     license='MIT License',

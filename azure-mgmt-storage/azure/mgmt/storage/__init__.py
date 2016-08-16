@@ -5,4 +5,5 @@
 # license information.
 # --------------------------------------------------------------------------
 
-from .v2016_01_01 import *
+from azure.common import import_latest_sdk
+import_latest_sdk('v2016_01_01', __name__)
