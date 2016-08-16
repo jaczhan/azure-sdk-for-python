@@ -19,7 +19,7 @@ class ContainerServiceOrchestratorProfile(Model):
      manage container cluster resources. Possible values include: 'Swarm',
      'DCOS'
     :type orchestrator_type: str or :class:`ContainerServiceOchestratorTypes
-     <azure.mgmt.compute.models.ContainerServiceOchestratorTypes>`
+     <azure.mgmt.compute.v20160330.models.ContainerServiceOchestratorTypes>`
     """ 
 
     _attribute_map = {

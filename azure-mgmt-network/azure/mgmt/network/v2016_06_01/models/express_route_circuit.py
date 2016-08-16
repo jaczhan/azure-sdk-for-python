@@ -30,7 +30,7 @@ class ExpressRouteCircuit(Resource):
     :type tags: dict
     :param sku: Gets or sets sku
     :type sku: :class:`ExpressRouteCircuitSku
-     <azure.mgmt.network.models.ExpressRouteCircuitSku>`
+     <azure.mgmt.network.v20160601.models.ExpressRouteCircuitSku>`
     :param allow_classic_operations: allow classic operations
     :type allow_classic_operations: bool
     :param circuit_provisioning_state: Gets or sets CircuitProvisioningState
@@ -42,13 +42,13 @@ class ExpressRouteCircuit(Resource):
      'Deprovisioning'
     :type service_provider_provisioning_state: str or
      :class:`ServiceProviderProvisioningState
-     <azure.mgmt.network.models.ServiceProviderProvisioningState>`
+     <azure.mgmt.network.v20160601.models.ServiceProviderProvisioningState>`
     :param authorizations: Gets or sets list of authorizations
     :type authorizations: list of :class:`ExpressRouteCircuitAuthorization
-     <azure.mgmt.network.models.ExpressRouteCircuitAuthorization>`
+     <azure.mgmt.network.v20160601.models.ExpressRouteCircuitAuthorization>`
     :param peerings: Gets or sets list of peerings
     :type peerings: list of :class:`ExpressRouteCircuitPeering
-     <azure.mgmt.network.models.ExpressRouteCircuitPeering>`
+     <azure.mgmt.network.v20160601.models.ExpressRouteCircuitPeering>`
     :param service_key: Gets or sets ServiceKey
     :type service_key: str
     :param service_provider_notes: Gets or sets ServiceProviderNotes
@@ -56,7 +56,7 @@ class ExpressRouteCircuit(Resource):
     :param service_provider_properties: Gets or sets ServiceProviderProperties
     :type service_provider_properties:
      :class:`ExpressRouteCircuitServiceProviderProperties
-     <azure.mgmt.network.models.ExpressRouteCircuitServiceProviderProperties>`
+     <azure.mgmt.network.v20160601.models.ExpressRouteCircuitServiceProviderProperties>`
     :param provisioning_state: Gets provisioning state of the PublicIP
      resource Updating/Deleting/Failed
     :type provisioning_state: str

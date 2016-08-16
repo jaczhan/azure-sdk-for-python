@@ -21,10 +21,10 @@ class ApplicationGatewayBackendAddressPool(SubResource):
      in NICs
     :type backend_ip_configurations: list of
      :class:`NetworkInterfaceIPConfiguration
-     <azure.mgmt.network.models.NetworkInterfaceIPConfiguration>`
+     <azure.mgmt.network.v20160601.models.NetworkInterfaceIPConfiguration>`
     :param backend_addresses: Backend addresses
     :type backend_addresses: list of :class:`ApplicationGatewayBackendAddress
-     <azure.mgmt.network.models.ApplicationGatewayBackendAddress>`
+     <azure.mgmt.network.v20160601.models.ApplicationGatewayBackendAddress>`
     :param provisioning_state: Provisioning state of the backend address pool
      resource Updating/Deleting/Failed
     :type provisioning_state: str

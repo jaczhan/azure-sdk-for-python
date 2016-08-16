@@ -18,7 +18,7 @@ class ContainerServiceSshConfiguration(Model):
     :param public_keys: the list of SSH public keys used to authenticate with
      Linux based VMs
     :type public_keys: list of :class:`ContainerServiceSshPublicKey
-     <azure.mgmt.compute.models.ContainerServiceSshPublicKey>`
+     <azure.mgmt.compute.v20160330.models.ContainerServiceSshPublicKey>`
     """ 
 
     _attribute_map = {

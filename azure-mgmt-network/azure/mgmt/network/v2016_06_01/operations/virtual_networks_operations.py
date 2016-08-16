@@ -128,7 +128,7 @@ class VirtualNetworksOperations(object):
         :param operation_config: :ref:`Operation configuration
          overrides<msrest:optionsforoperations>`.
         :rtype: :class:`VirtualNetwork
-         <azure.mgmt.network.models.VirtualNetwork>`
+         <azure.mgmt.network.v20160601.models.VirtualNetwork>`
         :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`
          if raw=true
         """
@@ -189,14 +189,14 @@ class VirtualNetworksOperations(object):
         :param parameters: Parameters supplied to the create/update Virtual
          Network operation
         :type parameters: :class:`VirtualNetwork
-         <azure.mgmt.network.models.VirtualNetwork>`
+         <azure.mgmt.network.v20160601.models.VirtualNetwork>`
         :param dict custom_headers: headers that will be added to the request
         :param bool raw: returns the direct response alongside the
          deserialized response
         :rtype:
          :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`
          instance that returns :class:`VirtualNetwork
-         <azure.mgmt.network.models.VirtualNetwork>`
+         <azure.mgmt.network.v20160601.models.VirtualNetwork>`
         :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`
          if raw=true
         """
@@ -282,7 +282,7 @@ class VirtualNetworksOperations(object):
         :param operation_config: :ref:`Operation configuration
          overrides<msrest:optionsforoperations>`.
         :rtype: :class:`VirtualNetworkPaged
-         <azure.mgmt.network.models.VirtualNetworkPaged>`
+         <azure.mgmt.network.v20160601.models.VirtualNetworkPaged>`
         """
         def internal_paging(next_link=None, raw=False):
 
@@ -347,7 +347,7 @@ class VirtualNetworksOperations(object):
         :param operation_config: :ref:`Operation configuration
          overrides<msrest:optionsforoperations>`.
         :rtype: :class:`VirtualNetworkPaged
-         <azure.mgmt.network.models.VirtualNetworkPaged>`
+         <azure.mgmt.network.v20160601.models.VirtualNetworkPaged>`
         """
         def internal_paging(next_link=None, raw=False):
 
@@ -416,7 +416,7 @@ class VirtualNetworksOperations(object):
         :param operation_config: :ref:`Operation configuration
          overrides<msrest:optionsforoperations>`.
         :rtype: :class:`IPAddressAvailabilityResult
-         <azure.mgmt.network.models.IPAddressAvailabilityResult>`
+         <azure.mgmt.network.v20160601.models.IPAddressAvailabilityResult>`
         :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`
          if raw=true
         """

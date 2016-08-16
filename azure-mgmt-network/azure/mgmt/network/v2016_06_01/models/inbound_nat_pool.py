@@ -20,11 +20,11 @@ class InboundNatPool(SubResource):
     :param frontend_ip_configuration: Gets or sets a reference to frontend IP
      Addresses
     :type frontend_ip_configuration: :class:`SubResource
-     <azure.mgmt.network.models.SubResource>`
+     <azure.mgmt.network.v20160601.models.SubResource>`
     :param protocol: Gets or sets the transport protocol for the endpoint.
      Possible values are Udp or Tcp. Possible values include: 'Udp', 'Tcp'
     :type protocol: str or :class:`TransportProtocol
-     <azure.mgmt.network.models.TransportProtocol>`
+     <azure.mgmt.network.v20160601.models.TransportProtocol>`
     :param frontend_port_range_start: Gets or sets the starting port range
      for the NAT pool. You can specify any port number you choose, but the
      port numbers specified for each role in the service must be unique.

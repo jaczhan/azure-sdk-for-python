@@ -23,7 +23,7 @@ class Provider(Model):
     :type registration_state: str
     :param resource_types: The collection of provider resource types.
     :type resource_types: list of :class:`ProviderResourceType
-     <azure.mgmt.resource.resources.models.ProviderResourceType>`
+     <azure.mgmt.resource.resources.v20160201.models.ProviderResourceType>`
     """ 
 
     _attribute_map = {

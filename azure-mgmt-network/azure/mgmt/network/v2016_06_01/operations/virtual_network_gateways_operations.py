@@ -48,14 +48,14 @@ class VirtualNetworkGatewaysOperations(object):
         :param parameters: Parameters supplied to the Begin Create or update
          Virtual Network Gateway operation through Network resource provider.
         :type parameters: :class:`VirtualNetworkGateway
-         <azure.mgmt.network.models.VirtualNetworkGateway>`
+         <azure.mgmt.network.v20160601.models.VirtualNetworkGateway>`
         :param dict custom_headers: headers that will be added to the request
         :param bool raw: returns the direct response alongside the
          deserialized response
         :rtype:
          :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`
          instance that returns :class:`VirtualNetworkGateway
-         <azure.mgmt.network.models.VirtualNetworkGateway>`
+         <azure.mgmt.network.v20160601.models.VirtualNetworkGateway>`
         :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`
          if raw=true
         """
@@ -148,7 +148,7 @@ class VirtualNetworkGatewaysOperations(object):
         :param operation_config: :ref:`Operation configuration
          overrides<msrest:optionsforoperations>`.
         :rtype: :class:`VirtualNetworkGateway
-         <azure.mgmt.network.models.VirtualNetworkGateway>`
+         <azure.mgmt.network.v20160601.models.VirtualNetworkGateway>`
         :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`
          if raw=true
         """
@@ -286,7 +286,7 @@ class VirtualNetworkGatewaysOperations(object):
         :param operation_config: :ref:`Operation configuration
          overrides<msrest:optionsforoperations>`.
         :rtype: :class:`VirtualNetworkGatewayPaged
-         <azure.mgmt.network.models.VirtualNetworkGatewayPaged>`
+         <azure.mgmt.network.v20160601.models.VirtualNetworkGatewayPaged>`
         """
         def internal_paging(next_link=None, raw=False):
 
@@ -353,14 +353,14 @@ class VirtualNetworkGatewaysOperations(object):
         :param parameters: Parameters supplied to the Begin Reset Virtual
          Network Gateway operation through Network resource provider.
         :type parameters: :class:`VirtualNetworkGateway
-         <azure.mgmt.network.models.VirtualNetworkGateway>`
+         <azure.mgmt.network.v20160601.models.VirtualNetworkGateway>`
         :param dict custom_headers: headers that will be added to the request
         :param bool raw: returns the direct response alongside the
          deserialized response
         :rtype:
          :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`
          instance that returns :class:`VirtualNetworkGateway
-         <azure.mgmt.network.models.VirtualNetworkGateway>`
+         <azure.mgmt.network.v20160601.models.VirtualNetworkGateway>`
         :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`
          if raw=true
         """
@@ -448,7 +448,7 @@ class VirtualNetworkGatewaysOperations(object):
         :param processor_architecture: VPN client Processor Architecture
          -Amd64/X86. Possible values include: 'Amd64', 'X86'
         :type processor_architecture: str or :class:`ProcessorArchitecture
-         <azure.mgmt.network.models.ProcessorArchitecture>`
+         <azure.mgmt.network.v20160601.models.ProcessorArchitecture>`
         :param dict custom_headers: headers that will be added to the request
         :param bool raw: returns the direct response alongside the
          deserialized response

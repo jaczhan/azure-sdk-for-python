@@ -20,7 +20,7 @@ class StorageAccountListKeysResult(Model):
 
     :ivar keys: Gets the list of account keys and their properties.
     :vartype keys: list of :class:`StorageAccountKey
-     <azure.mgmt.storage.models.StorageAccountKey>`
+     <azure.mgmt.storage.v20160101.models.StorageAccountKey>`
     """ 
 
     _validation = {

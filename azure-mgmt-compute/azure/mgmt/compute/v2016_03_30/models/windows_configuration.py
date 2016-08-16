@@ -27,10 +27,10 @@ class WindowsConfiguration(Model):
      formatted information that can be included in the Unattend.xml file.
     :type additional_unattend_content: list of
      :class:`AdditionalUnattendContent
-     <azure.mgmt.compute.models.AdditionalUnattendContent>`
+     <azure.mgmt.compute.v20160330.models.AdditionalUnattendContent>`
     :param win_rm: the Windows Remote Management configuration of the VM
     :type win_rm: :class:`WinRMConfiguration
-     <azure.mgmt.compute.models.WinRMConfiguration>`
+     <azure.mgmt.compute.v20160330.models.WinRMConfiguration>`
     """ 
 
     _attribute_map = {

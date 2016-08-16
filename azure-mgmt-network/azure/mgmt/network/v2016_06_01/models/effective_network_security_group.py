@@ -18,15 +18,15 @@ class EffectiveNetworkSecurityGroup(Model):
     :param network_security_group: Gets the id of network security group that
      is applied
     :type network_security_group: :class:`SubResource
-     <azure.mgmt.network.models.SubResource>`
+     <azure.mgmt.network.v20160601.models.SubResource>`
     :param association:
     :type association: :class:`EffectiveNetworkSecurityGroupAssociation
-     <azure.mgmt.network.models.EffectiveNetworkSecurityGroupAssociation>`
+     <azure.mgmt.network.v20160601.models.EffectiveNetworkSecurityGroupAssociation>`
     :param effective_security_rules: Gets collection of effective security
      rules
     :type effective_security_rules: list of
      :class:`EffectiveNetworkSecurityRule
-     <azure.mgmt.network.models.EffectiveNetworkSecurityRule>`
+     <azure.mgmt.network.v20160601.models.EffectiveNetworkSecurityRule>`
     """ 
 
     _attribute_map = {

@@ -50,7 +50,7 @@ class DeploymentOperationsOperations(object):
         :param operation_config: :ref:`Operation configuration
          overrides<msrest:optionsforoperations>`.
         :rtype: :class:`DeploymentOperation
-         <azure.mgmt.resource.resources.models.DeploymentOperation>`
+         <azure.mgmt.resource.resources.v20160201.models.DeploymentOperation>`
         :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`
          if raw=true
         """
@@ -115,7 +115,7 @@ class DeploymentOperationsOperations(object):
         :param operation_config: :ref:`Operation configuration
          overrides<msrest:optionsforoperations>`.
         :rtype: :class:`DeploymentOperationPaged
-         <azure.mgmt.resource.resources.models.DeploymentOperationPaged>`
+         <azure.mgmt.resource.resources.v20160201.models.DeploymentOperationPaged>`
         """
         def internal_paging(next_link=None, raw=False):
 

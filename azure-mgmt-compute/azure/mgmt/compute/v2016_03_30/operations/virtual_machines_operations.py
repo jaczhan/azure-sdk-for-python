@@ -48,14 +48,14 @@ class VirtualMachinesOperations(object):
         :param parameters: Parameters supplied to the Capture Virtual Machine
          operation.
         :type parameters: :class:`VirtualMachineCaptureParameters
-         <azure.mgmt.compute.models.VirtualMachineCaptureParameters>`
+         <azure.mgmt.compute.v20160330.models.VirtualMachineCaptureParameters>`
         :param dict custom_headers: headers that will be added to the request
         :param bool raw: returns the direct response alongside the
          deserialized response
         :rtype:
          :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`
          instance that returns :class:`VirtualMachineCaptureResult
-         <azure.mgmt.compute.models.VirtualMachineCaptureResult>`
+         <azure.mgmt.compute.v20160330.models.VirtualMachineCaptureResult>`
         :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`
          if raw=true
         """
@@ -140,14 +140,14 @@ class VirtualMachinesOperations(object):
         :param parameters: Parameters supplied to the Create Virtual Machine
          operation.
         :type parameters: :class:`VirtualMachine
-         <azure.mgmt.compute.models.VirtualMachine>`
+         <azure.mgmt.compute.v20160330.models.VirtualMachine>`
         :param dict custom_headers: headers that will be added to the request
         :param bool raw: returns the direct response alongside the
          deserialized response
         :rtype:
          :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`
          instance that returns :class:`VirtualMachine
-         <azure.mgmt.compute.models.VirtualMachine>`
+         <azure.mgmt.compute.v20160330.models.VirtualMachine>`
         :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`
          if raw=true
         """
@@ -310,14 +310,14 @@ class VirtualMachinesOperations(object):
         :param expand: The expand expression to apply on the operation.
          Possible values include: 'instanceView'
         :type expand: str or :class:`InstanceViewTypes
-         <azure.mgmt.compute.models.InstanceViewTypes>`
+         <azure.mgmt.compute.v20160330.models.InstanceViewTypes>`
         :param dict custom_headers: headers that will be added to the request
         :param bool raw: returns the direct response alongside the
          deserialized response
         :param operation_config: :ref:`Operation configuration
          overrides<msrest:optionsforoperations>`.
         :rtype: :class:`VirtualMachine
-         <azure.mgmt.compute.models.VirtualMachine>`
+         <azure.mgmt.compute.v20160330.models.VirtualMachine>`
         :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`
          if raw=true
         """
@@ -509,7 +509,7 @@ class VirtualMachinesOperations(object):
         :param operation_config: :ref:`Operation configuration
          overrides<msrest:optionsforoperations>`.
         :rtype: :class:`VirtualMachinePaged
-         <azure.mgmt.compute.models.VirtualMachinePaged>`
+         <azure.mgmt.compute.v20160330.models.VirtualMachinePaged>`
         """
         def internal_paging(next_link=None, raw=False):
 
@@ -574,7 +574,7 @@ class VirtualMachinesOperations(object):
         :param operation_config: :ref:`Operation configuration
          overrides<msrest:optionsforoperations>`.
         :rtype: :class:`VirtualMachinePaged
-         <azure.mgmt.compute.models.VirtualMachinePaged>`
+         <azure.mgmt.compute.v20160330.models.VirtualMachinePaged>`
         """
         def internal_paging(next_link=None, raw=False):
 
@@ -641,7 +641,7 @@ class VirtualMachinesOperations(object):
         :param operation_config: :ref:`Operation configuration
          overrides<msrest:optionsforoperations>`.
         :rtype: :class:`VirtualMachineSizePaged
-         <azure.mgmt.compute.models.VirtualMachineSizePaged>`
+         <azure.mgmt.compute.v20160330.models.VirtualMachineSizePaged>`
         """
         def internal_paging(next_link=None, raw=False):
 

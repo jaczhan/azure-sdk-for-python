@@ -26,7 +26,8 @@ class Usage(Model):
     :param limit: Gets or sets the limit of usage.
     :type limit: long
     :param name: Gets or sets the name of the type of usage.
-    :type name: :class:`UsageName <azure.mgmt.network.models.UsageName>`
+    :type name: :class:`UsageName
+     <azure.mgmt.network.v20160601.models.UsageName>`
     """ 
 
     _validation = {

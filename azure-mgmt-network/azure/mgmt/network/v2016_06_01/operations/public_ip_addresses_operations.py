@@ -128,7 +128,7 @@ class PublicIPAddressesOperations(object):
         :param operation_config: :ref:`Operation configuration
          overrides<msrest:optionsforoperations>`.
         :rtype: :class:`PublicIPAddress
-         <azure.mgmt.network.models.PublicIPAddress>`
+         <azure.mgmt.network.v20160601.models.PublicIPAddress>`
         :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`
          if raw=true
         """
@@ -189,14 +189,14 @@ class PublicIPAddressesOperations(object):
         :param parameters: Parameters supplied to the create/update
          PublicIPAddress operation
         :type parameters: :class:`PublicIPAddress
-         <azure.mgmt.network.models.PublicIPAddress>`
+         <azure.mgmt.network.v20160601.models.PublicIPAddress>`
         :param dict custom_headers: headers that will be added to the request
         :param bool raw: returns the direct response alongside the
          deserialized response
         :rtype:
          :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`
          instance that returns :class:`PublicIPAddress
-         <azure.mgmt.network.models.PublicIPAddress>`
+         <azure.mgmt.network.v20160601.models.PublicIPAddress>`
         :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`
          if raw=true
         """
@@ -283,7 +283,7 @@ class PublicIPAddressesOperations(object):
         :param operation_config: :ref:`Operation configuration
          overrides<msrest:optionsforoperations>`.
         :rtype: :class:`PublicIPAddressPaged
-         <azure.mgmt.network.models.PublicIPAddressPaged>`
+         <azure.mgmt.network.v20160601.models.PublicIPAddressPaged>`
         """
         def internal_paging(next_link=None, raw=False):
 
@@ -348,7 +348,7 @@ class PublicIPAddressesOperations(object):
         :param operation_config: :ref:`Operation configuration
          overrides<msrest:optionsforoperations>`.
         :rtype: :class:`PublicIPAddressPaged
-         <azure.mgmt.network.models.PublicIPAddressPaged>`
+         <azure.mgmt.network.v20160601.models.PublicIPAddressPaged>`
         """
         def internal_paging(next_link=None, raw=False):
 

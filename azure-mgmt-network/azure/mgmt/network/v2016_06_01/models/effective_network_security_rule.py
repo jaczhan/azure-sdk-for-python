@@ -21,7 +21,7 @@ class EffectiveNetworkSecurityRule(Model):
     :param protocol: Gets Network protocol this rule applies to. Possible
      values include: 'Tcp', 'Udp', '*'
     :type protocol: str or :class:`SecurityRuleProtocol
-     <azure.mgmt.network.models.SecurityRuleProtocol>`
+     <azure.mgmt.network.v20160601.models.SecurityRuleProtocol>`
     :param source_port_range: Gets source port or range
     :type source_port_range: str
     :param destination_port_range: Gets destination port or range
@@ -38,13 +38,13 @@ class EffectiveNetworkSecurityRule(Model):
     :param access: Gets network traffic is allowed or denied. Possible values
      include: 'Allow', 'Deny'
     :type access: str or :class:`SecurityRuleAccess
-     <azure.mgmt.network.models.SecurityRuleAccess>`
+     <azure.mgmt.network.v20160601.models.SecurityRuleAccess>`
     :param priority: Gets the priority of the rule
     :type priority: int
     :param direction: Gets the direction of the rule. Possible values
      include: 'Inbound', 'Outbound'
     :type direction: str or :class:`SecurityRuleDirection
-     <azure.mgmt.network.models.SecurityRuleDirection>`
+     <azure.mgmt.network.v20160601.models.SecurityRuleDirection>`
     """ 
 
     _attribute_map = {

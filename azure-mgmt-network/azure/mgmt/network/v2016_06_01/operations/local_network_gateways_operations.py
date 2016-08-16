@@ -48,14 +48,14 @@ class LocalNetworkGatewaysOperations(object):
         :param parameters: Parameters supplied to the Begin Create or update
          Local Network Gateway operation through Network resource provider.
         :type parameters: :class:`LocalNetworkGateway
-         <azure.mgmt.network.models.LocalNetworkGateway>`
+         <azure.mgmt.network.v20160601.models.LocalNetworkGateway>`
         :param dict custom_headers: headers that will be added to the request
         :param bool raw: returns the direct response alongside the
          deserialized response
         :rtype:
          :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`
          instance that returns :class:`LocalNetworkGateway
-         <azure.mgmt.network.models.LocalNetworkGateway>`
+         <azure.mgmt.network.v20160601.models.LocalNetworkGateway>`
         :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`
          if raw=true
         """
@@ -147,7 +147,7 @@ class LocalNetworkGatewaysOperations(object):
         :param operation_config: :ref:`Operation configuration
          overrides<msrest:optionsforoperations>`.
         :rtype: :class:`LocalNetworkGateway
-         <azure.mgmt.network.models.LocalNetworkGateway>`
+         <azure.mgmt.network.v20160601.models.LocalNetworkGateway>`
         :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`
          if raw=true
         """
@@ -285,7 +285,7 @@ class LocalNetworkGatewaysOperations(object):
         :param operation_config: :ref:`Operation configuration
          overrides<msrest:optionsforoperations>`.
         :rtype: :class:`LocalNetworkGatewayPaged
-         <azure.mgmt.network.models.LocalNetworkGatewayPaged>`
+         <azure.mgmt.network.v20160601.models.LocalNetworkGatewayPaged>`
         """
         def internal_paging(next_link=None, raw=False):
 

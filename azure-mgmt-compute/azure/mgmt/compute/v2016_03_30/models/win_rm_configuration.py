@@ -17,7 +17,7 @@ class WinRMConfiguration(Model):
 
     :param listeners: the list of Windows Remote Management listeners
     :type listeners: list of :class:`WinRMListener
-     <azure.mgmt.compute.models.WinRMListener>`
+     <azure.mgmt.compute.v20160330.models.WinRMListener>`
     """ 
 
     _attribute_map = {

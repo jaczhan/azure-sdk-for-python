@@ -19,7 +19,7 @@ class KeyVaultKeyReference(Model):
     :type key_url: str
     :param source_vault: the Relative URL of the Key Vault containing the key
     :type source_vault: :class:`SubResource
-     <azure.mgmt.compute.models.SubResource>`
+     <azure.mgmt.compute.v20160330.models.SubResource>`
     """ 
 
     _validation = {

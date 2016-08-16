@@ -44,7 +44,7 @@ class ExpressRouteServiceProvidersOperations(object):
         :param operation_config: :ref:`Operation configuration
          overrides<msrest:optionsforoperations>`.
         :rtype: :class:`ExpressRouteServiceProviderPaged
-         <azure.mgmt.network.models.ExpressRouteServiceProviderPaged>`
+         <azure.mgmt.network.v20160601.models.ExpressRouteServiceProviderPaged>`
         """
         def internal_paging(next_link=None, raw=False):
 

@@ -20,21 +20,21 @@ class VirtualMachineScaleSetOSDisk(Model):
     :param caching: the caching type. Possible values include: 'None',
      'ReadOnly', 'ReadWrite'
     :type caching: str or :class:`CachingTypes
-     <azure.mgmt.compute.models.CachingTypes>`
+     <azure.mgmt.compute.v20160330.models.CachingTypes>`
     :param create_option: the create option. Possible values include:
      'fromImage', 'empty', 'attach'
     :type create_option: str or :class:`DiskCreateOptionTypes
-     <azure.mgmt.compute.models.DiskCreateOptionTypes>`
+     <azure.mgmt.compute.v20160330.models.DiskCreateOptionTypes>`
     :param os_type: the Operating System type. Possible values include:
      'Windows', 'Linux'
     :type os_type: str or :class:`OperatingSystemTypes
-     <azure.mgmt.compute.models.OperatingSystemTypes>`
+     <azure.mgmt.compute.v20160330.models.OperatingSystemTypes>`
     :param image: the Source User Image VirtualHardDisk. This VirtualHardDisk
      will be copied before using it to attach to the Virtual Machine.If
      SourceImage is provided, the destination VirtualHardDisk should not
      exist.
     :type image: :class:`VirtualHardDisk
-     <azure.mgmt.compute.models.VirtualHardDisk>`
+     <azure.mgmt.compute.v20160330.models.VirtualHardDisk>`
     :param vhd_containers: the list of virtual hard disk container uris.
     :type vhd_containers: list of str
     """ 

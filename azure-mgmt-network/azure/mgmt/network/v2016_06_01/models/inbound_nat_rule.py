@@ -23,17 +23,17 @@ class InboundNatRule(SubResource):
     :param frontend_ip_configuration: Gets or sets a reference to frontend IP
      Addresses
     :type frontend_ip_configuration: :class:`SubResource
-     <azure.mgmt.network.models.SubResource>`
+     <azure.mgmt.network.v20160601.models.SubResource>`
     :ivar backend_ip_configuration: Gets or sets a reference to a private ip
      address defined on a NetworkInterface of a VM. Traffic sent to
      frontendPort of each of the frontendIPConfigurations is forwarded to the
      backed IP
     :vartype backend_ip_configuration:
-     :class:`NetworkInterfaceIPConfiguration <azure.mgmt.network.models.NetworkInterfaceIPConfiguration>`
+     :class:`NetworkInterfaceIPConfiguration <azure.mgmt.network.v20160601.models.NetworkInterfaceIPConfiguration>`
     :param protocol: Gets or sets the transport protocol for the endpoint.
      Possible values are Udp or Tcp. Possible values include: 'Udp', 'Tcp'
     :type protocol: str or :class:`TransportProtocol
-     <azure.mgmt.network.models.TransportProtocol>`
+     <azure.mgmt.network.v20160601.models.TransportProtocol>`
     :param frontend_port: Gets or sets the port for the external endpoint.
      You can specify any port number you choose, but the port numbers
      specified for each role in the service must be unique. Possible values

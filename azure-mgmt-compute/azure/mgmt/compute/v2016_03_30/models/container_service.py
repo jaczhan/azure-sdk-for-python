@@ -33,23 +33,23 @@ class ContainerService(Resource):
     :vartype provisioning_state: str
     :param orchestrator_profile: Properties of orchestrator
     :type orchestrator_profile: :class:`ContainerServiceOrchestratorProfile
-     <azure.mgmt.compute.models.ContainerServiceOrchestratorProfile>`
+     <azure.mgmt.compute.v20160330.models.ContainerServiceOrchestratorProfile>`
     :param master_profile: Properties of master agents
     :type master_profile: :class:`ContainerServiceMasterProfile
-     <azure.mgmt.compute.models.ContainerServiceMasterProfile>`
+     <azure.mgmt.compute.v20160330.models.ContainerServiceMasterProfile>`
     :param agent_pool_profiles: Properties of agent pools
     :type agent_pool_profiles: list of
      :class:`ContainerServiceAgentPoolProfile
-     <azure.mgmt.compute.models.ContainerServiceAgentPoolProfile>`
+     <azure.mgmt.compute.v20160330.models.ContainerServiceAgentPoolProfile>`
     :param windows_profile: Properties of Windows VMs
     :type windows_profile: :class:`ContainerServiceWindowsProfile
-     <azure.mgmt.compute.models.ContainerServiceWindowsProfile>`
+     <azure.mgmt.compute.v20160330.models.ContainerServiceWindowsProfile>`
     :param linux_profile: Properties for Linux VMs
     :type linux_profile: :class:`ContainerServiceLinuxProfile
-     <azure.mgmt.compute.models.ContainerServiceLinuxProfile>`
+     <azure.mgmt.compute.v20160330.models.ContainerServiceLinuxProfile>`
     :param diagnostics_profile: Properties for Diagnostic Agent
     :type diagnostics_profile: :class:`ContainerServiceDiagnosticsProfile
-     <azure.mgmt.compute.models.ContainerServiceDiagnosticsProfile>`
+     <azure.mgmt.compute.v20160330.models.ContainerServiceDiagnosticsProfile>`
     """ 
 
     _validation = {

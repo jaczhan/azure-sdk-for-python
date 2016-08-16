@@ -53,7 +53,7 @@ class VirtualMachineExtensionImagesOperations(object):
         :param operation_config: :ref:`Operation configuration
          overrides<msrest:optionsforoperations>`.
         :rtype: :class:`VirtualMachineExtensionImage
-         <azure.mgmt.compute.models.VirtualMachineExtensionImage>`
+         <azure.mgmt.compute.v20160330.models.VirtualMachineExtensionImage>`
         :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`
          if raw=true
         """
@@ -116,7 +116,7 @@ class VirtualMachineExtensionImagesOperations(object):
         :param operation_config: :ref:`Operation configuration
          overrides<msrest:optionsforoperations>`.
         :rtype: list of :class:`VirtualMachineExtensionImage
-         <azure.mgmt.compute.models.VirtualMachineExtensionImage>`
+         <azure.mgmt.compute.v20160330.models.VirtualMachineExtensionImage>`
         :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`
          if raw=true
         """
@@ -185,7 +185,7 @@ class VirtualMachineExtensionImagesOperations(object):
         :param operation_config: :ref:`Operation configuration
          overrides<msrest:optionsforoperations>`.
         :rtype: list of :class:`VirtualMachineExtensionImage
-         <azure.mgmt.compute.models.VirtualMachineExtensionImage>`
+         <azure.mgmt.compute.v20160330.models.VirtualMachineExtensionImage>`
         :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`
          if raw=true
         """

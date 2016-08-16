@@ -24,15 +24,15 @@ class BackendAddressPool(SubResource):
      defined in NICs
     :vartype backend_ip_configurations: list of
      :class:`NetworkInterfaceIPConfiguration
-     <azure.mgmt.network.models.NetworkInterfaceIPConfiguration>`
+     <azure.mgmt.network.v20160601.models.NetworkInterfaceIPConfiguration>`
     :ivar load_balancing_rules: Gets Load Balancing rules that use this
      Backend Address Pool
     :vartype load_balancing_rules: list of :class:`SubResource
-     <azure.mgmt.network.models.SubResource>`
+     <azure.mgmt.network.v20160601.models.SubResource>`
     :ivar outbound_nat_rule: Gets outbound rules that use this Backend
      Address Pool
     :vartype outbound_nat_rule: :class:`SubResource
-     <azure.mgmt.network.models.SubResource>`
+     <azure.mgmt.network.v20160601.models.SubResource>`
     :param provisioning_state: Get provisioning state of the PublicIP
      resource Updating/Deleting/Failed
     :type provisioning_state: str

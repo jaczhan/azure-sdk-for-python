@@ -25,9 +25,9 @@ class AzureAsyncOperationResult(Model):
     :param status: Status of the AzureAsuncOperation. Possible values
      include: 'InProgress', 'Succeeded', 'Failed'
     :type status: str or :class:`NetworkOperationStatus
-     <azure.mgmt.network.models.NetworkOperationStatus>`
+     <azure.mgmt.network.v20160601.models.NetworkOperationStatus>`
     :param error:
-    :type error: :class:`Error <azure.mgmt.network.models.Error>`
+    :type error: :class:`Error <azure.mgmt.network.v20160601.models.Error>`
     """ 
 
     _attribute_map = {

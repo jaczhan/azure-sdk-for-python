@@ -30,31 +30,32 @@ class VirtualMachine(Resource):
     :type tags: dict
     :param plan: the purchase plan when deploying virtual machine from VM
      Marketplace images.
-    :type plan: :class:`Plan <azure.mgmt.compute.models.Plan>`
+    :type plan: :class:`Plan <azure.mgmt.compute.v20160330.models.Plan>`
     :param hardware_profile: the hardware profile.
     :type hardware_profile: :class:`HardwareProfile
-     <azure.mgmt.compute.models.HardwareProfile>`
+     <azure.mgmt.compute.v20160330.models.HardwareProfile>`
     :param storage_profile: the storage profile.
     :type storage_profile: :class:`StorageProfile
-     <azure.mgmt.compute.models.StorageProfile>`
+     <azure.mgmt.compute.v20160330.models.StorageProfile>`
     :param os_profile: the OS profile.
-    :type os_profile: :class:`OSProfile <azure.mgmt.compute.models.OSProfile>`
+    :type os_profile: :class:`OSProfile
+     <azure.mgmt.compute.v20160330.models.OSProfile>`
     :param network_profile: the network profile.
     :type network_profile: :class:`NetworkProfile
-     <azure.mgmt.compute.models.NetworkProfile>`
+     <azure.mgmt.compute.v20160330.models.NetworkProfile>`
     :param diagnostics_profile: the diagnostics profile.
     :type diagnostics_profile: :class:`DiagnosticsProfile
-     <azure.mgmt.compute.models.DiagnosticsProfile>`
+     <azure.mgmt.compute.v20160330.models.DiagnosticsProfile>`
     :param availability_set: the reference Id of the availability set to
      which this virtual machine belongs.
     :type availability_set: :class:`SubResource
-     <azure.mgmt.compute.models.SubResource>`
+     <azure.mgmt.compute.v20160330.models.SubResource>`
     :ivar provisioning_state: the provisioning state, which only appears in
      the response.
     :vartype provisioning_state: str
     :ivar instance_view: the virtual machine instance view.
     :vartype instance_view: :class:`VirtualMachineInstanceView
-     <azure.mgmt.compute.models.VirtualMachineInstanceView>`
+     <azure.mgmt.compute.v20160330.models.VirtualMachineInstanceView>`
     :param license_type: the license type, which is for bring your own
      license scenario.
     :type license_type: str
@@ -62,7 +63,7 @@ class VirtualMachine(Resource):
     :vartype vm_id: str
     :ivar resources: the virtual machine child extension resources.
     :vartype resources: list of :class:`VirtualMachineExtension
-     <azure.mgmt.compute.models.VirtualMachineExtension>`
+     <azure.mgmt.compute.v20160330.models.VirtualMachineExtension>`
     """ 
 
     _validation = {

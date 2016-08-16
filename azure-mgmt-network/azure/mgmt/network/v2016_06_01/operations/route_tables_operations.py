@@ -126,7 +126,8 @@ class RouteTablesOperations(object):
          deserialized response
         :param operation_config: :ref:`Operation configuration
          overrides<msrest:optionsforoperations>`.
-        :rtype: :class:`RouteTable <azure.mgmt.network.models.RouteTable>`
+        :rtype: :class:`RouteTable
+         <azure.mgmt.network.v20160601.models.RouteTable>`
         :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`
          if raw=true
         """
@@ -187,14 +188,14 @@ class RouteTablesOperations(object):
         :param parameters: Parameters supplied to the create/update Route
          Table operation
         :type parameters: :class:`RouteTable
-         <azure.mgmt.network.models.RouteTable>`
+         <azure.mgmt.network.v20160601.models.RouteTable>`
         :param dict custom_headers: headers that will be added to the request
         :param bool raw: returns the direct response alongside the
          deserialized response
         :rtype:
          :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`
          instance that returns :class:`RouteTable
-         <azure.mgmt.network.models.RouteTable>`
+         <azure.mgmt.network.v20160601.models.RouteTable>`
         :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`
          if raw=true
         """
@@ -282,7 +283,7 @@ class RouteTablesOperations(object):
         :param operation_config: :ref:`Operation configuration
          overrides<msrest:optionsforoperations>`.
         :rtype: :class:`RouteTablePaged
-         <azure.mgmt.network.models.RouteTablePaged>`
+         <azure.mgmt.network.v20160601.models.RouteTablePaged>`
         """
         def internal_paging(next_link=None, raw=False):
 
@@ -345,7 +346,7 @@ class RouteTablesOperations(object):
         :param operation_config: :ref:`Operation configuration
          overrides<msrest:optionsforoperations>`.
         :rtype: :class:`RouteTablePaged
-         <azure.mgmt.network.models.RouteTablePaged>`
+         <azure.mgmt.network.v20160601.models.RouteTablePaged>`
         """
         def internal_paging(next_link=None, raw=False):
 

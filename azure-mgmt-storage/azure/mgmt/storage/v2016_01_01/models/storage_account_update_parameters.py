@@ -18,7 +18,7 @@ class StorageAccountUpdateParameters(Model):
     :param sku: Gets or sets the sku type. Note that sku cannot be updated to
      StandardZRS or ProvisionedLRS, nor can accounts of that sku type be
      updated to any other value.
-    :type sku: :class:`Sku <azure.mgmt.storage.models.Sku>`
+    :type sku: :class:`Sku <azure.mgmt.storage.v20160101.models.Sku>`
     :param tags: Gets or sets a list of key value pairs that describe the
      resource. These tags can be used in viewing and grouping this resource
      (across resource groups). A maximum of 15 tags can be provided for a
@@ -30,17 +30,17 @@ class StorageAccountUpdateParameters(Model):
      account at this time. To clear the existing custom domain, use an empty
      string for the custom domain name property.
     :type custom_domain: :class:`CustomDomain
-     <azure.mgmt.storage.models.CustomDomain>`
+     <azure.mgmt.storage.v20160101.models.CustomDomain>`
     :param encryption: Provides the encryption settings on the account. The
      default setting is unencrypted.
     :type encryption: :class:`Encryption
-     <azure.mgmt.storage.models.Encryption>`
+     <azure.mgmt.storage.v20160101.models.Encryption>`
     :param access_tier: The access tier used for billing. Access tier cannot
      be changed more than once every 7 days (168 hours). Access tier cannot
      be set for StandardLRS, StandardGRS, StandardRAGRS, or PremiumLRS
      account types. Possible values include: 'Hot', 'Cool'
     :type access_tier: str or :class:`AccessTier
-     <azure.mgmt.storage.models.AccessTier>`
+     <azure.mgmt.storage.v20160101.models.AccessTier>`
     """ 
 
     _attribute_map = {

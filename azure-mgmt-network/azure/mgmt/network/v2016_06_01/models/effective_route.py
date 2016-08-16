@@ -20,11 +20,11 @@ class EffectiveRoute(Model):
     :param source: Gets who created the route. Possible values include:
      'Unknown', 'User', 'VirtualNetworkGateway', 'Default'
     :type source: str or :class:`EffectiveRouteSource
-     <azure.mgmt.network.models.EffectiveRouteSource>`
+     <azure.mgmt.network.v20160601.models.EffectiveRouteSource>`
     :param state: Gets value of effective route. Possible values include:
      'Active', 'Invalid'
     :type state: str or :class:`EffectiveRouteState
-     <azure.mgmt.network.models.EffectiveRouteState>`
+     <azure.mgmt.network.v20160601.models.EffectiveRouteState>`
     :param address_prefix: Gets address prefixes of the effective routes in
      CIDR notation.
     :type address_prefix: list of str
@@ -35,7 +35,7 @@ class EffectiveRoute(Model):
      should be sent to. Possible values include: 'VirtualNetworkGateway',
      'VnetLocal', 'Internet', 'VirtualAppliance', 'None'
     :type next_hop_type: str or :class:`RouteNextHopType
-     <azure.mgmt.network.models.RouteNextHopType>`
+     <azure.mgmt.network.v20160601.models.RouteNextHopType>`
     """ 
 
     _attribute_map = {

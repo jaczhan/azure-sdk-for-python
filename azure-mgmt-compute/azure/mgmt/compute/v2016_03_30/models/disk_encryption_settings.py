@@ -18,10 +18,10 @@ class DiskEncryptionSettings(Model):
     :param disk_encryption_key: the disk encryption key which is a KeyVault
      Secret.
     :type disk_encryption_key: :class:`KeyVaultSecretReference
-     <azure.mgmt.compute.models.KeyVaultSecretReference>`
+     <azure.mgmt.compute.v20160330.models.KeyVaultSecretReference>`
     :param key_encryption_key: the key encryption key which is KeyVault Key.
     :type key_encryption_key: :class:`KeyVaultKeyReference
-     <azure.mgmt.compute.models.KeyVaultKeyReference>`
+     <azure.mgmt.compute.v20160330.models.KeyVaultKeyReference>`
     :param enabled: whether disk encryption should be enabled on the Virtual
      Machine.
     :type enabled: bool

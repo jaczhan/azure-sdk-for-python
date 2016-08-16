@@ -27,7 +27,7 @@ class VirtualMachineScaleSetSkuCapacity(Model):
     :ivar scale_type: the scale type applicable to the sku. Possible values
      include: 'Automatic', 'None'
     :vartype scale_type: str or :class:`VirtualMachineScaleSetSkuScaleType
-     <azure.mgmt.compute.models.VirtualMachineScaleSetSkuScaleType>`
+     <azure.mgmt.compute.v20160330.models.VirtualMachineScaleSetSkuScaleType>`
     """ 
 
     _validation = {

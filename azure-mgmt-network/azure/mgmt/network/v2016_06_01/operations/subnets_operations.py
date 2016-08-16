@@ -131,7 +131,7 @@ class SubnetsOperations(object):
          deserialized response
         :param operation_config: :ref:`Operation configuration
          overrides<msrest:optionsforoperations>`.
-        :rtype: :class:`Subnet <azure.mgmt.network.models.Subnet>`
+        :rtype: :class:`Subnet <azure.mgmt.network.v20160601.models.Subnet>`
         :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`
          if raw=true
         """
@@ -195,14 +195,14 @@ class SubnetsOperations(object):
         :param subnet_parameters: Parameters supplied to the create/update
          Subnet operation
         :type subnet_parameters: :class:`Subnet
-         <azure.mgmt.network.models.Subnet>`
+         <azure.mgmt.network.v20160601.models.Subnet>`
         :param dict custom_headers: headers that will be added to the request
         :param bool raw: returns the direct response alongside the
          deserialized response
         :rtype:
          :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`
          instance that returns :class:`Subnet
-         <azure.mgmt.network.models.Subnet>`
+         <azure.mgmt.network.v20160601.models.Subnet>`
         :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`
          if raw=true
         """
@@ -293,7 +293,8 @@ class SubnetsOperations(object):
          deserialized response
         :param operation_config: :ref:`Operation configuration
          overrides<msrest:optionsforoperations>`.
-        :rtype: :class:`SubnetPaged <azure.mgmt.network.models.SubnetPaged>`
+        :rtype: :class:`SubnetPaged
+         <azure.mgmt.network.v20160601.models.SubnetPaged>`
         """
         def internal_paging(next_link=None, raw=False):
 

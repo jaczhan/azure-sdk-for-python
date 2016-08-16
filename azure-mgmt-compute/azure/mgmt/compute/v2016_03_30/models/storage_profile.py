@@ -17,12 +17,13 @@ class StorageProfile(Model):
 
     :param image_reference: the image reference.
     :type image_reference: :class:`ImageReference
-     <azure.mgmt.compute.models.ImageReference>`
+     <azure.mgmt.compute.v20160330.models.ImageReference>`
     :param os_disk: the OS disk.
-    :type os_disk: :class:`OSDisk <azure.mgmt.compute.models.OSDisk>`
+    :type os_disk: :class:`OSDisk
+     <azure.mgmt.compute.v20160330.models.OSDisk>`
     :param data_disks: the data disks.
     :type data_disks: list of :class:`DataDisk
-     <azure.mgmt.compute.models.DataDisk>`
+     <azure.mgmt.compute.v20160330.models.DataDisk>`
     """ 
 
     _attribute_map = {

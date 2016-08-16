@@ -17,7 +17,7 @@ class EffectiveRouteListResult(Model):
 
     :param value: Gets list of effective routes
     :type value: list of :class:`EffectiveRoute
-     <azure.mgmt.network.models.EffectiveRoute>`
+     <azure.mgmt.network.v20160601.models.EffectiveRoute>`
     :param next_link: Gets the URL to get the next set of results.
     :type next_link: str
     """ 

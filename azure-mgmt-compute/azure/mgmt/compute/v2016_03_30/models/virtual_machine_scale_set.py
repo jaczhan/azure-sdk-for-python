@@ -29,13 +29,13 @@ class VirtualMachineScaleSet(Resource):
     :param tags: Resource tags
     :type tags: dict
     :param sku: the virtual machine scale set sku.
-    :type sku: :class:`Sku <azure.mgmt.compute.models.Sku>`
+    :type sku: :class:`Sku <azure.mgmt.compute.v20160330.models.Sku>`
     :param upgrade_policy: the upgrade policy.
     :type upgrade_policy: :class:`UpgradePolicy
-     <azure.mgmt.compute.models.UpgradePolicy>`
+     <azure.mgmt.compute.v20160330.models.UpgradePolicy>`
     :param virtual_machine_profile: the virtual machine profile.
     :type virtual_machine_profile: :class:`VirtualMachineScaleSetVMProfile
-     <azure.mgmt.compute.models.VirtualMachineScaleSetVMProfile>`
+     <azure.mgmt.compute.v20160330.models.VirtualMachineScaleSetVMProfile>`
     :ivar provisioning_state: the provisioning state, which only appears in
      the response.
     :vartype provisioning_state: str

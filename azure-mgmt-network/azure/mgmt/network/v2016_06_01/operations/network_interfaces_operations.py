@@ -128,7 +128,7 @@ class NetworkInterfacesOperations(object):
         :param operation_config: :ref:`Operation configuration
          overrides<msrest:optionsforoperations>`.
         :rtype: :class:`NetworkInterface
-         <azure.mgmt.network.models.NetworkInterface>`
+         <azure.mgmt.network.v20160601.models.NetworkInterface>`
         :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`
          if raw=true
         """
@@ -188,14 +188,14 @@ class NetworkInterfacesOperations(object):
         :param parameters: Parameters supplied to the create/update
          NetworkInterface operation
         :type parameters: :class:`NetworkInterface
-         <azure.mgmt.network.models.NetworkInterface>`
+         <azure.mgmt.network.v20160601.models.NetworkInterface>`
         :param dict custom_headers: headers that will be added to the request
         :param bool raw: returns the direct response alongside the
          deserialized response
         :rtype:
          :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`
          instance that returns :class:`NetworkInterface
-         <azure.mgmt.network.models.NetworkInterface>`
+         <azure.mgmt.network.v20160601.models.NetworkInterface>`
         :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`
          if raw=true
         """
@@ -290,7 +290,7 @@ class NetworkInterfacesOperations(object):
         :param operation_config: :ref:`Operation configuration
          overrides<msrest:optionsforoperations>`.
         :rtype: :class:`NetworkInterfacePaged
-         <azure.mgmt.network.models.NetworkInterfacePaged>`
+         <azure.mgmt.network.v20160601.models.NetworkInterfacePaged>`
         """
         def internal_paging(next_link=None, raw=False):
 
@@ -361,7 +361,7 @@ class NetworkInterfacesOperations(object):
         :param operation_config: :ref:`Operation configuration
          overrides<msrest:optionsforoperations>`.
         :rtype: :class:`NetworkInterfacePaged
-         <azure.mgmt.network.models.NetworkInterfacePaged>`
+         <azure.mgmt.network.v20160601.models.NetworkInterfacePaged>`
         """
         def internal_paging(next_link=None, raw=False):
 
@@ -437,7 +437,7 @@ class NetworkInterfacesOperations(object):
         :param operation_config: :ref:`Operation configuration
          overrides<msrest:optionsforoperations>`.
         :rtype: :class:`NetworkInterface
-         <azure.mgmt.network.models.NetworkInterface>`
+         <azure.mgmt.network.v20160601.models.NetworkInterface>`
         :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`
          if raw=true
         """
@@ -499,7 +499,7 @@ class NetworkInterfacesOperations(object):
         :param operation_config: :ref:`Operation configuration
          overrides<msrest:optionsforoperations>`.
         :rtype: :class:`NetworkInterfacePaged
-         <azure.mgmt.network.models.NetworkInterfacePaged>`
+         <azure.mgmt.network.v20160601.models.NetworkInterfacePaged>`
         """
         def internal_paging(next_link=None, raw=False):
 
@@ -564,7 +564,7 @@ class NetworkInterfacesOperations(object):
         :param operation_config: :ref:`Operation configuration
          overrides<msrest:optionsforoperations>`.
         :rtype: :class:`NetworkInterfacePaged
-         <azure.mgmt.network.models.NetworkInterfacePaged>`
+         <azure.mgmt.network.v20160601.models.NetworkInterfacePaged>`
         """
         def internal_paging(next_link=None, raw=False):
 
@@ -632,7 +632,7 @@ class NetworkInterfacesOperations(object):
         :rtype:
          :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`
          instance that returns :class:`EffectiveRouteListResult
-         <azure.mgmt.network.models.EffectiveRouteListResult>`
+         <azure.mgmt.network.v20160601.models.EffectiveRouteListResult>`
         :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`
          if raw=true
         """
@@ -717,7 +717,7 @@ class NetworkInterfacesOperations(object):
         :rtype:
          :class:`AzureOperationPoller<msrestazure.azure_operation.AzureOperationPoller>`
          instance that returns
-         :class:`EffectiveNetworkSecurityGroupListResult <azure.mgmt.network.models.EffectiveNetworkSecurityGroupListResult>`
+         :class:`EffectiveNetworkSecurityGroupListResult <azure.mgmt.network.v20160601.models.EffectiveNetworkSecurityGroupListResult>`
         :rtype: :class:`ClientRawResponse<msrest.pipeline.ClientRawResponse>`
          if raw=true
         """

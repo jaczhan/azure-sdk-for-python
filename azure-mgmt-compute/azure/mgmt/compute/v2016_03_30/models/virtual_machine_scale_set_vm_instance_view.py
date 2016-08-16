@@ -23,19 +23,19 @@ class VirtualMachineScaleSetVMInstanceView(Model):
     :type rdp_thumb_print: str
     :param vm_agent: the VM Agent running on the virtual machine.
     :type vm_agent: :class:`VirtualMachineAgentInstanceView
-     <azure.mgmt.compute.models.VirtualMachineAgentInstanceView>`
+     <azure.mgmt.compute.v20160330.models.VirtualMachineAgentInstanceView>`
     :param disks: the disks information.
     :type disks: list of :class:`DiskInstanceView
-     <azure.mgmt.compute.models.DiskInstanceView>`
+     <azure.mgmt.compute.v20160330.models.DiskInstanceView>`
     :param extensions: the extensions information.
     :type extensions: list of :class:`VirtualMachineExtensionInstanceView
-     <azure.mgmt.compute.models.VirtualMachineExtensionInstanceView>`
+     <azure.mgmt.compute.v20160330.models.VirtualMachineExtensionInstanceView>`
     :param boot_diagnostics: the boot diagnostics.
     :type boot_diagnostics: :class:`BootDiagnosticsInstanceView
-     <azure.mgmt.compute.models.BootDiagnosticsInstanceView>`
+     <azure.mgmt.compute.v20160330.models.BootDiagnosticsInstanceView>`
     :param statuses: the resource status information.
     :type statuses: list of :class:`InstanceViewStatus
-     <azure.mgmt.compute.models.InstanceViewStatus>`
+     <azure.mgmt.compute.v20160330.models.InstanceViewStatus>`
     """ 
 
     _attribute_map = {

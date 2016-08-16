@@ -21,33 +21,33 @@ class NetworkInterfaceIPConfiguration(SubResource):
      reference of ApplicationGatewayBackendAddressPool resource
     :type application_gateway_backend_address_pools: list of
      :class:`ApplicationGatewayBackendAddressPool
-     <azure.mgmt.network.models.ApplicationGatewayBackendAddressPool>`
+     <azure.mgmt.network.v20160601.models.ApplicationGatewayBackendAddressPool>`
     :param load_balancer_backend_address_pools: Gets or sets the reference of
      LoadBalancerBackendAddressPool resource
     :type load_balancer_backend_address_pools: list of
      :class:`BackendAddressPool
-     <azure.mgmt.network.models.BackendAddressPool>`
+     <azure.mgmt.network.v20160601.models.BackendAddressPool>`
     :param load_balancer_inbound_nat_rules: Gets or sets list of references
      of LoadBalancerInboundNatRules
     :type load_balancer_inbound_nat_rules: list of :class:`InboundNatRule
-     <azure.mgmt.network.models.InboundNatRule>`
+     <azure.mgmt.network.v20160601.models.InboundNatRule>`
     :param private_ip_address:
     :type private_ip_address: str
     :param private_ip_allocation_method: Gets or sets PrivateIP allocation
      method. Possible values include: 'Static', 'Dynamic'
     :type private_ip_allocation_method: str or :class:`IPAllocationMethod
-     <azure.mgmt.network.models.IPAllocationMethod>`
+     <azure.mgmt.network.v20160601.models.IPAllocationMethod>`
     :param private_ip_address_version: Gets or sets PrivateIP address version
      (IPv4/IPv6). Possible values include: 'IPv4', 'IPv6'
     :type private_ip_address_version: str or :class:`IPVersion
-     <azure.mgmt.network.models.IPVersion>`
+     <azure.mgmt.network.v20160601.models.IPVersion>`
     :param subnet:
-    :type subnet: :class:`Subnet <azure.mgmt.network.models.Subnet>`
+    :type subnet: :class:`Subnet <azure.mgmt.network.v20160601.models.Subnet>`
     :param primary: Gets whether this is a primary customer address on the NIC
     :type primary: bool
     :param public_ip_address:
     :type public_ip_address: :class:`PublicIPAddress
-     <azure.mgmt.network.models.PublicIPAddress>`
+     <azure.mgmt.network.v20160601.models.PublicIPAddress>`
     :param provisioning_state:
     :type provisioning_state: str
     :param name: Gets name of the resource that is unique within a resource

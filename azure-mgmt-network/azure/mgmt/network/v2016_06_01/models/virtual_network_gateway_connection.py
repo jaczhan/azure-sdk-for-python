@@ -32,18 +32,18 @@ class VirtualNetworkGatewayConnection(Resource):
     :type authorization_key: str
     :param virtual_network_gateway1:
     :type virtual_network_gateway1: :class:`VirtualNetworkGateway
-     <azure.mgmt.network.models.VirtualNetworkGateway>`
+     <azure.mgmt.network.v20160601.models.VirtualNetworkGateway>`
     :param virtual_network_gateway2:
     :type virtual_network_gateway2: :class:`VirtualNetworkGateway
-     <azure.mgmt.network.models.VirtualNetworkGateway>`
+     <azure.mgmt.network.v20160601.models.VirtualNetworkGateway>`
     :param local_network_gateway2:
     :type local_network_gateway2: :class:`LocalNetworkGateway
-     <azure.mgmt.network.models.LocalNetworkGateway>`
+     <azure.mgmt.network.v20160601.models.LocalNetworkGateway>`
     :param connection_type: Gateway connection type
      -Ipsec/Dedicated/VpnClient/Vnet2Vnet. Possible values include: 'IPsec',
      'Vnet2Vnet', 'ExpressRoute', 'VPNClient'
     :type connection_type: str or :class:`VirtualNetworkGatewayConnectionType
-     <azure.mgmt.network.models.VirtualNetworkGatewayConnectionType>`
+     <azure.mgmt.network.v20160601.models.VirtualNetworkGatewayConnectionType>`
     :param routing_weight: The Routing weight.
     :type routing_weight: int
     :param shared_key: The Ipsec share key.
@@ -53,7 +53,7 @@ class VirtualNetworkGatewayConnection(Resource):
      'NotConnected'
     :type connection_status: str or
      :class:`VirtualNetworkGatewayConnectionStatus
-     <azure.mgmt.network.models.VirtualNetworkGatewayConnectionStatus>`
+     <azure.mgmt.network.v20160601.models.VirtualNetworkGatewayConnectionStatus>`
     :param egress_bytes_transferred: The Egress Bytes Transferred in this
      connection
     :type egress_bytes_transferred: long
@@ -61,7 +61,8 @@ class VirtualNetworkGatewayConnection(Resource):
      connection
     :type ingress_bytes_transferred: long
     :param peer: The reference to peerings resource.
-    :type peer: :class:`SubResource <azure.mgmt.network.models.SubResource>`
+    :type peer: :class:`SubResource
+     <azure.mgmt.network.v20160601.models.SubResource>`
     :param enable_bgp: EnableBgp Flag
     :type enable_bgp: bool
     :param resource_guid: Gets or sets resource guid property of the

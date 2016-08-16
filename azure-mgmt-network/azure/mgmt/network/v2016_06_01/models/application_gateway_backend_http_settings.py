@@ -21,20 +21,21 @@ class ApplicationGatewayBackendHttpSettings(SubResource):
     :type port: int
     :param protocol: Protocol. Possible values include: 'Http', 'Https'
     :type protocol: str or :class:`ApplicationGatewayProtocol
-     <azure.mgmt.network.models.ApplicationGatewayProtocol>`
+     <azure.mgmt.network.v20160601.models.ApplicationGatewayProtocol>`
     :param cookie_based_affinity: Cookie affinity. Possible values include:
      'Enabled', 'Disabled'
     :type cookie_based_affinity: str or
      :class:`ApplicationGatewayCookieBasedAffinity
-     <azure.mgmt.network.models.ApplicationGatewayCookieBasedAffinity>`
+     <azure.mgmt.network.v20160601.models.ApplicationGatewayCookieBasedAffinity>`
     :param request_timeout: Request timeout
     :type request_timeout: int
     :param probe: Probe resource of application gateway
-    :type probe: :class:`SubResource <azure.mgmt.network.models.SubResource>`
+    :type probe: :class:`SubResource
+     <azure.mgmt.network.v20160601.models.SubResource>`
     :param authentication_certificates: Array of references to Application
      Gateway Authentication Certificates
     :type authentication_certificates: list of :class:`SubResource
-     <azure.mgmt.network.models.SubResource>`
+     <azure.mgmt.network.v20160601.models.SubResource>`
     :param provisioning_state: Provisioning state of the backend http
      settings resource Updating/Deleting/Failed
     :type provisioning_state: str

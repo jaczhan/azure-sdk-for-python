@@ -23,7 +23,7 @@ class SecurityRule(SubResource):
     :param protocol: Gets or sets Network protocol this rule applies to. Can
      be Tcp, Udp or All(*). Possible values include: 'Tcp', 'Udp', '*'
     :type protocol: str or :class:`SecurityRuleProtocol
-     <azure.mgmt.network.models.SecurityRuleProtocol>`
+     <azure.mgmt.network.v20160601.models.SecurityRuleProtocol>`
     :param source_port_range: Gets or sets Source Port or Range. Integer or
      range between 0 and 65535. Asterix '*' can also be used to match all
      ports.
@@ -47,7 +47,7 @@ class SecurityRule(SubResource):
      Possible values are 'Allow' and 'Deny'. Possible values include:
      'Allow', 'Deny'
     :type access: str or :class:`SecurityRuleAccess
-     <azure.mgmt.network.models.SecurityRuleAccess>`
+     <azure.mgmt.network.v20160601.models.SecurityRuleAccess>`
     :param priority: Gets or sets the priority of the rule. The value can be
      between 100 and 4096. The priority number must be unique for each rule
      in the collection. The lower the priority number, the higher the
@@ -57,7 +57,7 @@ class SecurityRule(SubResource):
      Outbound. The direction specifies if rule will be evaluated on incoming
      or outcoming traffic. Possible values include: 'Inbound', 'Outbound'
     :type direction: str or :class:`SecurityRuleDirection
-     <azure.mgmt.network.models.SecurityRuleDirection>`
+     <azure.mgmt.network.v20160601.models.SecurityRuleDirection>`
     :param provisioning_state: Gets provisioning state of the PublicIP
      resource Updating/Deleting/Failed
     :type provisioning_state: str

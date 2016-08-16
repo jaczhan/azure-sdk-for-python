@@ -30,18 +30,18 @@ class NetworkInterface(Resource):
     :type tags: dict
     :param virtual_machine: Gets or sets the reference of a VirtualMachine
     :type virtual_machine: :class:`SubResource
-     <azure.mgmt.network.models.SubResource>`
+     <azure.mgmt.network.v20160601.models.SubResource>`
     :param network_security_group: Gets or sets the reference of the
      NetworkSecurityGroup resource
     :type network_security_group: :class:`NetworkSecurityGroup
-     <azure.mgmt.network.models.NetworkSecurityGroup>`
+     <azure.mgmt.network.v20160601.models.NetworkSecurityGroup>`
     :param ip_configurations: Gets or sets list of IPConfigurations of the
      network interface
     :type ip_configurations: list of :class:`NetworkInterfaceIPConfiguration
-     <azure.mgmt.network.models.NetworkInterfaceIPConfiguration>`
+     <azure.mgmt.network.v20160601.models.NetworkInterfaceIPConfiguration>`
     :param dns_settings: Gets or sets DNS settings in network interface
     :type dns_settings: :class:`NetworkInterfaceDnsSettings
-     <azure.mgmt.network.models.NetworkInterfaceDnsSettings>`
+     <azure.mgmt.network.v20160601.models.NetworkInterfaceDnsSettings>`
     :param mac_address: Gets the MAC address of the network interface
     :type mac_address: str
     :param primary: Gets whether this is a primary NIC on a virtual machine
