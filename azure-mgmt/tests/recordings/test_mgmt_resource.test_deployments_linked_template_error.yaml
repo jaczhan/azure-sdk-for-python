@@ -10,7 +10,7 @@ interactions:
       User-Agent: [python/3.5.1 (Windows-10-10.0.14393-SP0) requests/2.11.0 msrest/0.4.1
           msrest_azure/0.4.1 resourcemanagementclient/1.0.0rc1 Azure-SDK-For-Python]
       accept-language: [en-US]
-      x-ms-client-request-id: [c503fa14-63f1-11e6-aac8-ecb1d756380e]
+      x-ms-client-request-id: [80873ba8-6409-11e6-97e6-ecb1d756380e]
     method: PUT
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/test_mgmt_resource_test_deployments_linked_template_errorafa117b7?api-version=2016-07-01
   response:
@@ -19,13 +19,49 @@ interactions:
       Cache-Control: [no-cache]
       Content-Length: ['283']
       Content-Type: [application/json; charset=utf-8]
-      Date: ['Tue, 16 Aug 2016 20:41:12 GMT']
+      Date: ['Tue, 16 Aug 2016 23:31:05 GMT']
       Expires: ['-1']
       Pragma: [no-cache]
       Strict-Transport-Security: [max-age=31536000; includeSubDomains]
-      x-ms-correlation-request-id: [42a4507a-ef6f-49e1-93b8-195ee1badf82]
-      x-ms-ratelimit-remaining-subscription-writes: ['1189']
-      x-ms-request-id: [42a4507a-ef6f-49e1-93b8-195ee1badf82]
-      x-ms-routing-request-id: ['CENTRALUS:20160816T204113Z:42a4507a-ef6f-49e1-93b8-195ee1badf82']
+      x-ms-correlation-request-id: [b40b1307-8991-4642-9447-12167f23d8e8]
+      x-ms-ratelimit-remaining-subscription-writes: ['1199']
+      x-ms-request-id: [b40b1307-8991-4642-9447-12167f23d8e8]
+      x-ms-routing-request-id: ['CENTRALUS:20160816T233106Z:b40b1307-8991-4642-9447-12167f23d8e8']
     status: {code: 201, message: Created}
+- request:
+    body: '{"properties": {"parametersLink": {"uri": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/101-vm-simple-linux/azuredeploy.parameters.json"},
+      "mode": "Incremental", "templateLink": {"uri": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/101-vm-simple-linux/azuredeploy.json"}}}'
+    headers:
+      Accept: [application/json]
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      Content-Length: ['330']
+      Content-Type: [application/json; charset=utf-8]
+      User-Agent: [python/3.5.1 (Windows-10-10.0.14393-SP0) requests/2.11.0 msrest/0.4.1
+          msrest_azure/0.4.1 resourcemanagementclient/1.0.0rc1 Azure-SDK-For-Python]
+      accept-language: [en-US]
+      x-ms-client-request-id: [81364600-6409-11e6-af85-ecb1d756380e]
+    method: PUT
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/test_mgmt_resource_test_deployments_linked_template_errorafa117b7/providers/Microsoft.Resources/deployments/pytestlinkedafa117b7?api-version=2016-07-01
+  response:
+    body: {string: '{"error":{"code":"InvalidTemplateDeployment","message":"The template
+        deployment ''pytestlinkedafa117b7'' is not valid according to the validation
+        procedure. The tracking id is ''cb8981e8-1329-4b78-abed-829b8c90bf96''. See
+        inner errors for details. Please see https://aka.ms/arm-deploy for usage details.","details":[{"code":"InvalidDomainNameLabel","message":"The
+        domain name label GEN-UNIQUE is invalid. It must conform to the following
+        regular expression: ^[a-z][a-z0-9-]{1,61}[a-z0-9]$.","details":[]}]}}'}
+    headers:
+      Cache-Control: [no-cache]
+      Content-Length: ['503']
+      Content-Type: [application/json; charset=utf-8]
+      Date: ['Tue, 16 Aug 2016 23:31:07 GMT']
+      Expires: ['-1']
+      Pragma: [no-cache]
+      Strict-Transport-Security: [max-age=31536000; includeSubDomains]
+      x-ms-correlation-request-id: [cb8981e8-1329-4b78-abed-829b8c90bf96]
+      x-ms-failure-cause: [gateway]
+      x-ms-ratelimit-remaining-subscription-writes: ['1198']
+      x-ms-request-id: [cb8981e8-1329-4b78-abed-829b8c90bf96]
+      x-ms-routing-request-id: ['CENTRALUS:20160816T233107Z:cb8981e8-1329-4b78-abed-829b8c90bf96']
+    status: {code: 400, message: Bad Request}
 version: 1
