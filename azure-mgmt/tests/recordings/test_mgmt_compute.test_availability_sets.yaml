@@ -12,7 +12,7 @@ interactions:
       accept-language: [en-US]
       x-ms-client-request-id: [65411b8c-4490-11e6-9b4b-ecb1d756380e]
     method: PUT
-    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/test_mgmt_compute_test_availability_sets53ac1097?api-version=2016-02-01
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/test_mgmt_compute_test_availability_sets53ac1097?api-version=2016-07-01
   response:
     body: {string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/test_mgmt_compute_test_availability_sets53ac1097","name":"test_mgmt_compute_test_availability_sets53ac1097","location":"westus","properties":{"provisioningState":"Succeeded"}}'}
     headers:

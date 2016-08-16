@@ -143,12 +143,12 @@ interactions:
       Connection: [keep-alive]
       Content-Length: ['84']
       Content-Type: [application/json; charset=utf-8]
-      User-Agent: [python/3.5.1 requests/2.7.0 msrest/0.2.0 msrest_azure/0.2.0 resourcemanagementclient/2016-02-01
+      User-Agent: [python/3.5.1 requests/2.7.0 msrest/0.2.0 msrest_azure/0.2.0 resourcemanagementclient/2016-07-01
           Azure-SDK-For-Python]
       accept-language: [en-US]
       x-ms-client-request-id: [2444b26e-f2be-11e5-8f70-54ee7574ca37]
     method: PUT
-    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/test_mgmt_authorization_test_authorization7af511a3?api-version=2016-02-01
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/test_mgmt_authorization_test_authorization7af511a3?api-version=2016-07-01
   response:
     body: {string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/test_mgmt_authorization_test_authorization7af511a3","name":"test_mgmt_authorization_test_authorization7af511a3","location":"westus","properties":{"provisioningState":"Succeeded"}}'}
     headers:

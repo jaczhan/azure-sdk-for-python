@@ -12,7 +12,7 @@ interactions:
       accept-language: [en-US]
       x-ms-client-request-id: [5a464bcc-4add-11e6-99d1-00155d4b0101]
     method: PUT
-    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/test_mgmt_compute_test_virtual_machine_capturec0f9130c?api-version=2016-02-01
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/test_mgmt_compute_test_virtual_machine_capturec0f9130c?api-version=2016-07-01
   response:
     body: {string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/test_mgmt_compute_test_virtual_machine_capturec0f9130c","name":"test_mgmt_compute_test_virtual_machine_capturec0f9130c","location":"westus","properties":{"provisioningState":"Succeeded"}}'}
     headers:

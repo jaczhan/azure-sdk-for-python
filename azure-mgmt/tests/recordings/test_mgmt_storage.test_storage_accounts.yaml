@@ -12,7 +12,7 @@ interactions:
       accept-language: [en-US]
       x-ms-client-request-id: [669d3d9e-3d55-11e6-8fe3-ecb1d756380e]
     method: PUT
-    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/test_mgmt_storage_test_storage_accounts43b8102a?api-version=2016-02-01
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/test_mgmt_storage_test_storage_accounts43b8102a?api-version=2016-07-01
   response:
     body: {string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/test_mgmt_storage_test_storage_accounts43b8102a","name":"test_mgmt_storage_test_storage_accounts43b8102a","location":"westus","properties":{"provisioningState":"Succeeded"}}'}
     headers:

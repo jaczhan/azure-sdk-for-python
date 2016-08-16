@@ -114,12 +114,12 @@ interactions:
       Connection: [keep-alive]
       Content-Length: ['68']
       Content-Type: [application/json; charset=utf-8]
-      User-Agent: [python/3.5.1 requests/2.7.0 msrest/0.2.0 msrest_azure/0.2.0 resourcemanagementclient/2016-02-01
+      User-Agent: [python/3.5.1 requests/2.7.0 msrest/0.2.0 msrest_azure/0.2.0 resourcemanagementclient/2016-07-01
           Azure-SDK-For-Python]
       accept-language: [en-US]
       x-ms-client-request-id: [62626c1a-f2bf-11e5-9603-54ee7574ca37]
     method: PUT
-    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/test_mgmt_redis_test_redis91300aaf?api-version=2016-02-01
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/test_mgmt_redis_test_redis91300aaf?api-version=2016-07-01
   response:
     body: {string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/test_mgmt_redis_test_redis91300aaf","name":"test_mgmt_redis_test_redis91300aaf","location":"westus","properties":{"provisioningState":"Succeeded"}}'}
     headers:
@@ -293,11 +293,11 @@ interactions:
       Content-Length: ['68']
       Content-Type: [application/json; charset=utf-8]
       User-Agent: [python/3.5.1 (Windows-10-10.0.10586-SP0) requests/2.7.0 msrest/0.4.0
-          msrest_azure/0.4.0 resourcemanagementclient/2016-02-01 Azure-SDK-For-Python]
+          msrest_azure/0.4.0 resourcemanagementclient/2016-07-01 Azure-SDK-For-Python]
       accept-language: [en-US]
       x-ms-client-request-id: [03e84a26-2145-11e6-9727-54ee7574ca37]
     method: PUT
-    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/test_mgmt_redis_test_redis91300aaf?api-version=2016-02-01
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/test_mgmt_redis_test_redis91300aaf?api-version=2016-07-01
   response:
     body: {string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/test_mgmt_redis_test_redis91300aaf","name":"test_mgmt_redis_test_redis91300aaf","location":"westus","properties":{"provisioningState":"Succeeded"}}'}
     headers:

@@ -12,7 +12,7 @@ interactions:
       accept-language: [en-US]
       x-ms-client-request-id: [909b9e4c-4921-11e6-acbb-ecb1d756380e]
     method: PUT
-    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/test_mgmt_resource_locks_test_features34e20fc3?api-version=2016-02-01
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/test_mgmt_resource_locks_test_features34e20fc3?api-version=2016-07-01
   response:
     body: {string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/test_mgmt_resource_locks_test_features34e20fc3","name":"test_mgmt_resource_locks_test_features34e20fc3","location":"westus","properties":{"provisioningState":"Succeeded"}}'}
     headers:

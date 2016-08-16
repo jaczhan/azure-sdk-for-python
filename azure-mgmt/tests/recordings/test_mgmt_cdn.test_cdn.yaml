@@ -10,11 +10,11 @@ interactions:
       Content-Length: ['64']
       Content-Type: [application/json; charset=utf-8]
       User-Agent: [python/3.5.1 (Windows-10-10.0.10586-SP0) requests/2.7.0 msrest/0.4.0
-          msrest_azure/0.4.0 resourcemanagementclient/2016-02-01 Azure-SDK-For-Python]
+          msrest_azure/0.4.0 resourcemanagementclient/2016-07-01 Azure-SDK-For-Python]
       accept-language: [en-US]
       x-ms-client-request-id: [6aa6dc70-2202-11e6-ac06-54ee7574ca37]
     method: PUT
-    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/test_mgmt_cdn_test_cdn67e608eb?api-version=2016-02-01
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/test_mgmt_cdn_test_cdn67e608eb?api-version=2016-07-01
   response:
     body: {string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/test_mgmt_cdn_test_cdn67e608eb","name":"test_mgmt_cdn_test_cdn67e608eb","location":"westus","properties":{"provisioningState":"Succeeded"}}'}
     headers:

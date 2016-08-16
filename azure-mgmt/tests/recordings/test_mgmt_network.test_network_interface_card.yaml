@@ -12,7 +12,7 @@ interactions:
       accept-language: [en-US]
       x-ms-client-request-id: [8da94178-4ad9-11e6-aad3-00155d4b0101]
     method: PUT
-    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/test_mgmt_network_test_network_interface_cardb046129e?api-version=2016-02-01
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/test_mgmt_network_test_network_interface_cardb046129e?api-version=2016-07-01
   response:
     body: {string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/test_mgmt_network_test_network_interface_cardb046129e","name":"test_mgmt_network_test_network_interface_cardb046129e","location":"westus","properties":{"provisioningState":"Succeeded"}}'}
     headers:
