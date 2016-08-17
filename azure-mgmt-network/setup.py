@@ -6,7 +6,7 @@
 # license information.
 #--------------------------------------------------------------------------
 
-from setuptools import setup
+from setuptools import find_packages, setup
 from codecs import open
 import re
 
@@ -26,7 +26,7 @@ except ImportError:
     pass
 
 # Version extraction inspired from 'requests'
-with open('azure/mgmt/network/version.py', 'r') as fd:
+with open('azure/mgmt/network/v2016_06_01/version.py', 'r') as fd:
     version = re.search(r'^VERSION\s*=\s*[\'"]([^\'"]*)[\'"]',
                         fd.read(), re.MULTILINE).group(1)
 
@@ -59,15 +59,9 @@ setup(
         'License :: OSI Approved :: MIT License',
     ],
     zip_safe=False,
-    packages=[
-        'azure',
-        'azure.mgmt',
-        'azure.mgmt.network',
-        'azure.mgmt.network.models',
-        'azure.mgmt.network.operations',
-    ],
+    packages=find_packages(),
     install_requires=[
         'azure-mgmt-nspkg',
-        'azure-common[autorest]==1.1.4',
+        'azure-common[autorest]==1.1.5',
     ],
 )
