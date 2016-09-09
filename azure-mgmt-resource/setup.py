@@ -62,6 +62,6 @@ setup(
     packages=find_packages(),
     install_requires=[
         'azure-mgmt-nspkg',
-        'azure-common[autorest]==1.1.5',
+        'azure-common[autorest]==1.1.4',
     ],
 )

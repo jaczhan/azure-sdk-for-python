@@ -8,6 +8,13 @@
 import unittest
 
 import azure.mgmt.resource.resources
+models = azure.mgmt.resource.resources.models()
+client = azure.mgmt.resource.resources.client()
+client.resource_groups.create_or_update(
+    "RGName",
+    models.ResourceGroup(location="westus")
+)
+
 import azure.common.exceptions
 from testutils.common_recordingtestcase import record
 from tests.mgmt_testcase import HttpStatusCode, AzureMgmtTestCase
@@ -16,6 +23,7 @@ class MgmtResourceTest(AzureMgmtTestCase):
 
     def setUp(self):
         super(MgmtResourceTest, self).setUp()
+        self.models = azure.mgmt.resource.resources.models()
 
     @record
     def test_tag_operations(self):
@@ -54,7 +62,7 @@ class MgmtResourceTest(AzureMgmtTestCase):
     @record
     def test_resource_groups(self):
         # Create or update
-        params_create = azure.mgmt.resource.resources.models.ResourceGroup(
+        params_create = self.models.ResourceGroup(
             location=self.region,
             tags={
                 'tag1': 'value1',
@@ -91,7 +99,7 @@ class MgmtResourceTest(AzureMgmtTestCase):
         self.assertEqual(len(result_list_top), 2)
 
         # Patch
-        params_patch = azure.mgmt.resource.resources.models.ResourceGroup(
+        params_patch = self.models.ResourceGroup(
             location=self.region,
             tags={
                 'tag1': 'valueA',
@@ -244,8 +252,8 @@ class MgmtResourceTest(AzureMgmtTestCase):
 }
         # Note: when specifying values for parameters, omit the outer elements
         parameters = {"location": { "value": "West US"}}
-        deployment_params = azure.mgmt.resource.resources.models.DeploymentProperties(
-            mode = azure.mgmt.resource.resources.models.DeploymentMode.incremental,
+        deployment_params = self.models.DeploymentProperties(
+            mode = self.models.DeploymentMode.incremental,
             template=template,
             parameters=parameters,
         )
@@ -321,15 +329,15 @@ class MgmtResourceTest(AzureMgmtTestCase):
 
         # for more sample templates, see https://github.com/Azure/azure-quickstart-templates
         deployment_name = self.get_resource_name("pytestlinked")
-        template = azure.mgmt.resource.resources.models.TemplateLink(
+        template = self.models.TemplateLink(
             uri='https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/101-availability-set-create-3FDs-20UDs/azuredeploy.json',
         )
-        parameters = azure.mgmt.resource.resources.models.ParametersLink(
+        parameters = self.models.ParametersLink(
             uri='https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/101-availability-set-create-3FDs-20UDs/azuredeploy.parameters.json',
         )
 
-        deployment_params = azure.mgmt.resource.resources.models.DeploymentProperties(
-            mode = azure.mgmt.resource.resources.models.DeploymentMode.incremental,
+        deployment_params = self.models.DeploymentProperties(
+            mode = self.models.DeploymentMode.incremental,
             template_link=template,
             parameters_link=parameters,
         )
@@ -362,15 +370,15 @@ class MgmtResourceTest(AzureMgmtTestCase):
 
         # for more sample templates, see https://github.com/Azure/azure-quickstart-templates
         deployment_name = self.get_resource_name("pytestlinked")
-        template = azure.mgmt.resource.resources.models.TemplateLink(
+        template = self.models.TemplateLink(
             uri='https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/101-vm-simple-linux/azuredeploy.json',
         )
-        parameters = azure.mgmt.resource.resources.models.ParametersLink(
+        parameters = self.models.ParametersLink(
             uri='https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/101-vm-simple-linux/azuredeploy.parameters.json',
         )
 
-        deployment_params = azure.mgmt.resource.resources.models.DeploymentProperties(
-            mode = azure.mgmt.resource.resources.models.DeploymentMode.incremental,
+        deployment_params = self.models.DeploymentProperties(
+            mode = self.models.DeploymentMode.incremental,
             template_link=template,
             parameters_link=parameters,
         )

@@ -6,7 +6,7 @@
 import json
 import os.path
 import time
-import azure.mgmt.resource
+import azure.mgmt.resource.resources
 
 from azure.common.exceptions import (
     CloudError
@@ -49,7 +49,7 @@ class AzureMgmtTestCase(RecordingTestCase):
             self.settings = real_settings
 
         self.resource_client = self.create_mgmt_client(
-            azure.mgmt.resource.ResourceManagementClient
+            azure.mgmt.resource.resources
         )
 
         # Every test uses a different resource group name calculated from its
@@ -80,23 +80,23 @@ class AzureMgmtTestCase(RecordingTestCase):
             self.delete_resource_group(wait_timeout=None)
         return super(AzureMgmtTestCase, self).tearDown()
 
-    def create_basic_client(self, client_class, **kwargs):
+    def create_basic_client(self, client_module, **kwargs):
         # Whatever the client, if credentials is None, fail
         with self.assertRaises(ValueError):
-            client = client_class(
+            client = client_module.client(
                 credentials=None,
                 **kwargs
             )
         # Whatever the client, if accept_language is not str, fail
         with self.assertRaises(TypeError):
-            client = client_class(
+            client = client_module.client(
                 credentials=self.settings.get_credentials(),
                 accept_language=42,
                 **kwargs
             )
 
         # Real client creation
-        client = client_class(
+        client = client_module.client(
             credentials=self.settings.get_credentials(),
             **kwargs
         )
@@ -104,24 +104,24 @@ class AzureMgmtTestCase(RecordingTestCase):
             client.config.long_running_operation_timeout = 0
         return client
 
-    def create_mgmt_client(self, client_class, **kwargs):
+    def create_mgmt_client(self, client_module, **kwargs):
         # Whatever the client, if subscription_id is None, fail
         with self.assertRaises(ValueError):
             self.create_basic_client(
-                client_class,
+                client_module,
                 subscription_id=None,
                 **kwargs
             )
         # Whatever the client, if subscription_id is not a string, fail
         with self.assertRaises(TypeError):
             self.create_basic_client(
-                client_class,
+                client_module,
                 subscription_id=42,
                 **kwargs
             )
 
         return self.create_basic_client(
-            client_class,
+            client_module,
             subscription_id=self.settings.SUBSCRIPTION_ID,
             **kwargs
         )
