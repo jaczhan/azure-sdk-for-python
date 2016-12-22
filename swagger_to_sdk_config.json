@@ -134,6 +134,15 @@
       },
       "output_dir": "unreleased/azure-keyvault/azure/keyvault"
     },
+    "loganalytics": {
+      "swagger": "arm-operationalinsights/compositeOperationalInsights.json",
+      "autorest_options": {
+        "Namespace": "azure.mgmt.loganalytics",
+        "Modeler": "CompositeSwagger",
+        "PackageVersion": "0.1.0"
+      },
+      "output_dir": "azure-mgmt-loganalytics/azure/mgmt/loganalytics"
+    },
     "logic": {
       "swagger": "arm-logic/CompositeLogicClient.json",
       "autorest_options": {
